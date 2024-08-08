@@ -7,7 +7,6 @@
  width: auto;
  height: auto;
  padding: 0 100px;
- border: 2px solid red;
 }
 .nav{
     display: flex;
@@ -131,7 +130,7 @@ line-height: 40px;
     width: auto;
     height: auto;
     padding: 0 100px;
-    border: 2px solid red;
+   
     display: flex;
     justify-content: space-between;
     background-color: #e9e7ef;
@@ -194,7 +193,7 @@ line-height: 40px;
     width: auto;
     height: auto;
     padding: 0 100px;
-    border: 2px solid red;
+    
    }
 
 .sec-3-div-1{
@@ -257,7 +256,7 @@ line-height: 40px;
     height: auto;
     padding: 100px;
     padding-bottom: 150px;
-    border: 2px solid red;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -324,7 +323,7 @@ flex-direction: column;
     height: auto;
     padding: 100px;
     padding-bottom: 150px;
-    border: 2px solid red;
+   
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -394,7 +393,7 @@ flex-direction: column;
     height: auto;
     padding: 100px;
     padding-bottom: 50px;
-    border: 2px solid red;
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -436,7 +435,7 @@ flex-direction: column;
             flex-direction: column;
             padding: 10px;
             padding-bottom: 50px;
-            border: 2px solid red;   
+              
            }
         .sec-6-div-1{
             width: 100%;
@@ -450,6 +449,118 @@ flex-direction: column;
             width: 100%;
             height: 100%;
         }
-
-    
     }
+
+    /* section-7 */
+    .section-7{
+        margin: 0;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        width: auto;
+        height: auto;
+        padding: 100px;
+        padding-bottom:10px, 100px;
+     
+        display: grid;
+        grid-template-columns: repeat(5 ,1fr);
+   gap: 10px;
+
+       }
+
+       .sec-7-card{
+        display: flex;
+        gap: 10px;
+        width: 180px;
+        border: 1px solid white;
+        background-color:#FFFFFF;
+        border-radius: 20px;
+        padding: 10px ;
+       }
+             /* section-7 responsible */
+      @media screen and (max-width:576px) {
+        .section-7{
+            flex-direction: column;
+            padding: 10px;
+            padding-bottom: 50px;
+            grid-template-columns: repeat(2,1fr);
+            gap: 10px;
+           }
+           .sec-7-card{
+            display: flex;
+            gap: 0px;
+            width: 150px;
+            border: 1px solid white;
+            background-color:#FFFFFF;
+            border-radius: 20px;
+            align-items: center;
+            padding: 10px ;
+           }
+        }
+        /* footer part */
+        .section-8{
+            margin: 0;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: auto;
+            height: auto;
+            padding: 100px;
+            padding-bottom:10px, 100px;
+           background-color: #0B0223;
+    
+           }
+           .sec-8-div{
+            width: 80%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+             
+            color: #e9e7ef;
+
+           }
+           .sec-8-div-1{
+            display: flex;
+           
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+           }
+          .sec-8-div-3{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+          }
+                 /* section-8 responsible */
+      @media screen and (max-width:576px){
+
+        .section-8{
+            padding: 10px;  
+        padding-bottom: 50px;    }
+           .sec-8-div{
+            width: auto;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+     
+            color: #e9e7ef;
+
+           }
+           .sec-8-div-2>ul,.sec-8-div-4>ul{
+                  display: grid;
+                  grid-template-columns: repeat(3, 1fr);
+                  gap: 40px;
+           }
+          .sec-8-div-3{
+            display: flex;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            gap: 40px;
+            
+          }
+
+
+      }
